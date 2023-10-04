@@ -1,0 +1,84 @@
+:root {
+    background-image: url("./Assets/klim-musalimov-t1U_GRJEFrE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "fantasy", "papyrus";
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+.choice-container:hover {
+    cursor: pointer;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: black;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+.correct {
+    background: linear-gradient (32deg, (green) 100%);
+}
+
+.incorrrect {
+    background: linear-gradient (32deg, (red) 100%);
+}
+
+/* Heads Up Display*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    font-size: 3rem;
+}
+
+.hud-main-tex {
+    text-align: center;
+}
+
+#progressBar {
+    width: 30rem;
+    height: 3rem;
+    border: 0.3rem solid rgb(9, 255, 9);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(9, 255, 9);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+

@@ -1,0 +1,95 @@
+:root {
+    background-image: url("./Assets/klim-musalimov-cQZofrf0SW8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62%;
+    font-family: "fantasy", "papyrus";
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+    color: aliceblue;
+    margin-bottom: 5rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn1 {
+    font-size: 3rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #AE0001;
+    background-color: #D3A625;
+    border-radius: 10px;
+}
+
+.btn2 {
+    font-size: 3rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #1A472A;
+    background-color: #AAAAAA;
+    border-radius: 10px;
+}
+
+.btn3 {
+    font-size: 3rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #0F1D4A;
+    background-color: #946B2D;
+    border-radius: 10px;
+}
+
+.btn4 {
+    font-size: 3rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #EEBA35;
+    background-color: black;
+    border-radius: 10px;
+}
