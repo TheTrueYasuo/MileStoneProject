@@ -17,9 +17,10 @@
     width: 100%;
     border-radius: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(245, 244, 244);
     font-size: 3rem;
     min-width: 80rem;
+    
 }
 .choice-container:hover {
     cursor: pointer;
@@ -27,17 +28,17 @@
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
-    color: black;
+    color: rgb(250, 250, 250);
 }
 
 h1 {
-    color: black;
+    color: rgb(255, 253, 253);
 }
 .correct {
     background: linear-gradient (32deg, (green) 100%);
@@ -55,6 +56,7 @@ h1 {
 
 .hud-prefix {
     font-size: 3rem;
+    color: white;
 }
 
 .hud-main-tex {

@@ -2,9 +2,58 @@ const questions = [
     {
         question: 'Who is the boy who lived?',
         choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
-        answer: 1 // Index of the correct answer in the choices array
+        answer: 2 
     },
-    // ... (other questions)
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
+    {
+        question: 'Who is the boy who lived?',
+        choices: ['Ron Weasley', 'Harry Potter', 'Draco Malfoy', 'Neville Longbottom'],
+        answer: 2 
+    },
 ];
 
 const SCORE_POINTS = 10;
