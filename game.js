@@ -77,7 +77,7 @@ const startGame = () => {
     availableQuestions = [...questions];
     getNewQuestion();
 };
-
+//checks if there are no more questions//
 const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
@@ -99,7 +99,7 @@ const getNewQuestion = () => {
     availableQuestions.splice(questionsIndex, 1);
     acceptingAnswers = true;
 };
-
+// Event Listener For Correct Answer//
 const handleChoiceClick = e => {
     if (!acceptingAnswers) return;
 
@@ -114,7 +114,7 @@ const handleChoiceClick = e => {
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
-
+//delay for new question//
     setTimeout(() => {
         selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
